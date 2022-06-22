@@ -22,10 +22,12 @@ body{
     border-top-right-radius: 10px;
     display: flex;
     justify-content: center;
+    padding-left: 10px;
     ul{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         width: 350px;
+        padding-left: 9px;
         li{
             position: relative;
             list-style: none;
@@ -44,16 +46,16 @@ body{
                 transform: translateX(calc(70px * 4));
             }*/
             &:nth-child(4).active ~ .indicador {
-                transform: translateX(calc(70px * 3));
+                transform: translateX(calc(68px * 3));
             }
             &:nth-child(3).active ~ .indicador {
-                transform: translateX(calc(70px * 2));
+                transform: translateX(calc(68px * 2));
             }
             &:nth-child(2).active ~ .indicador {
-                transform: translateX(calc(70px * 1));
+                transform: translateX(calc(68px * 1));
             }
             &:nth-child(1).active ~ .indicador {
-                transform: translateX(calc(70px * 0));
+                transform: translateX(calc(68px * 0));
             }
             a{
                 position: relative;
